@@ -13,11 +13,11 @@
 Object
 ### Properties
 - label: string;
-- variables: IterableObject<ShakeVariableDefinition>;
-- onStart: ShakeExecutionDefinition | null;
-- onDestroy: ShakeExecutionDefinition | null;
-- triggers: ShakeTriggerDefinition[];
-- closures: ShakeClosureDefinition[];
+- variables: Record<string, [ShakeVariableDefinition](https://github.com/RyanRutkin/json-shake-react-playground#shakevariable)>;
+- onStart: [ShakeExecutionDefinition](https://github.com/RyanRutkin/json-shake-react-playground#shakeexecution) | null;
+- onDestroy: [ShakeExecutionDefinition](https://github.com/RyanRutkin/json-shake-react-playground#shakeexecution) | null;
+- triggers: [ShakeTriggerDefinition](https://github.com/RyanRutkin/json-shake-react-playground#shaketrigger)[];
+- closures: [ShakeClosureDefinition](https://github.com/RyanRutkin/json-shake-react-playground#shakeclosure)[];
 - id: string | null;
 
 ## ShakeCondition

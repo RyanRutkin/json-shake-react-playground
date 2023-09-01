@@ -1,0 +1,1 @@
+export type ShakeNodeType = 'closure' | 'condition' | 'evaluation' | 'execution' | 'invoker' | 'trigger' | 'variable' | 'setter' | 'while';

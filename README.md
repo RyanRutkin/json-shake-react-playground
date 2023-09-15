@@ -1,5 +1,9 @@
 # json-shake
 
+## TODO
+- JSON Logic does not ship with standard arithmetic operations. Custom operators can be added, but this is only supported in Javascript. Also, JSON Logic performs global assignment. Add arithmetic operations to Autological and swicth back to Autological instead of JSON Logic.
+- Having a variable setter use an evaluation _every time_ is too verbose for direct setting. Allow a value prop to be included.
+
 ## ShakeBase<T>
 ### serial-zeAsJson(): T;
 

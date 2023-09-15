@@ -1,0 +1,46 @@
+{
+    "label": "Global",
+    "variables": {
+        "firstInt": {
+            "label": "First Int",
+            "value": "0",
+            "type": "number",
+            "id": null
+        }
+    },
+    "onStart": {
+        "id": null,
+        "label": "init",
+        "sequence": [
+            {
+                "id": null,
+                "label": "First Int Incrementer",
+                "type": "while",
+                "evaluation": {
+                    "id": null,
+                    "label": "First Int is less than 10",
+                    "logic": {
+                        "<": [
+                            { "var": "firstInt" }, "10"
+                        ]
+                    }
+                },
+                "execution": [
+                    {
+                        "id": null,
+                        "type": "setter",
+                        "label": "Increment First Int",
+                        "variableLabel": "firstInt",
+                        "evaluation": {
+                            
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "onDestroy": null,
+    "triggers": [],
+    "closures": [],
+    "id": null
+}

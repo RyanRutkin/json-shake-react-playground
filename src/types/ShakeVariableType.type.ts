@@ -6,12 +6,12 @@ export type ShakeVariableBaseTypeString = 'boolean' | 'number' | 'object' | 'str
 export type ShakeVariableUnionTypeString = ShakeVariableBaseTypeString[];
 export type ShakeVariableTypeString = ShakeVariableBaseTypeString | ShakeVariableUnionTypeString;*/
 
-import { IterableObject } from './IterableObject.type';
+import { TypedRecord } from './TypedRecord';
 
 export type ShakeVariableType = {
     'boolean': boolean;
     'number': number;
-    'object': IterableObject;
+    'object': TypedRecord;
     'string': string;
     'any': any;
 }

@@ -1,11 +1,11 @@
-import { IterableObject } from './IterableObject.type';
+import { TypedRecord } from './TypedRecord';
 import { ShakeExecutionDefinition } from './ShakeExecutionDefinition.type';
 import { ShakeTriggerDefinition } from './ShakeTriggerDefinition.type';
 import { ShakeVariableDefinition } from './ShakeVariableDefinition.type';
 
 export interface ShakeClosureDefinition {
     label: string;
-    variables: IterableObject<ShakeVariableDefinition>;
+    variables: TypedRecord<ShakeVariableDefinition>;
     onStart: ShakeExecutionDefinition | null;
     onDestroy: ShakeExecutionDefinition | null;
     triggers: ShakeTriggerDefinition[];

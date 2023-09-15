@@ -1,4 +1,4 @@
-import { ShakeExecutionSequenceMemberDefinition, ShakeExecutionSequenceMemberInstance } from './ShakeExecutionSequenceMember.type';
+import { ShakeExecutionSequenceMemberDefinition, ShakeExecutionSequenceMember } from './ShakeExecutionSequenceMember.type';
 
 export type ShakeExecutionSequenceDefinition = ShakeExecutionSequenceMemberDefinition[];
-export type ShakeExecutionSequenceInstance = ShakeExecutionSequenceMemberInstance[]
+export type ShakeExecutionSequence = ShakeExecutionSequenceMember[];
